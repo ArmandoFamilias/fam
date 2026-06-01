@@ -1,0 +1,280 @@
+.fof
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(../img/eos.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.of
+{
+	width: 400px;
+	background: #321123;
+	padding: 30px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10%;
+	border-radius: 12px;
+	font-family: Verdana;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+label
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.op
+{
+	color: white;
+}
+
+.con
+{
+	width: 100%;
+	background: #702D55;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #BE4186;
+	font-family: Verdana;
+	font-size: 18px;
+	color: white;
+}
+
+.of .ca
+{
+	width: 100%;
+	background: #702D55;
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+.mp3
+{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+h5
+{
+	margin: 20px;
+}
+
+.ed
+{
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 12px;
+	color: #000;
+	margin: 16px 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+.de
+{
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 6px;
+	color: #000;
+	margin: 10px 0;
+	font-size: 20px;
+}
+
+.loca
+{
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 120%;
+}
+
+.locad
+{
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 120%;
+}
+
+.eee
+{
+	width: 400px;
+	background: #321123;
+	padding: 30px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 12px;
+	font-family: Verdana;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+/*el otro formulario*/
+
+.ofo
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(../img/ddas.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fo
+{
+	width: 400px;
+	background: #9E5F83;
+	padding: 30px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10%;
+	border-radius: 12px;
+	font-family: Verdana;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+label
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.po
+{
+	color: white;
+}
+
+.noc
+{
+	width: 100%;
+	background: #DBC1CE;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #DBC1CE;
+	font-family: Verdana;
+	font-size: 18px;
+	color: white;
+}
+
+.fo .ac
+{
+	width: 100%;
+	background: #702D55;
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+.mp4
+{
+	color: #61354D	;
+	font-size: 20px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+h5
+{
+	margin: 20px;
+}
+
+.ed
+{
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 12px;
+	color: #000;
+	margin: 16px 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+.de
+{
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 6px;
+	color: #000;
+	margin: 10px 0;
+	font-size: 20px;
+}
+
+.loca
+{
+	color: white;
+	text-decoration: none;
+	font-family: Copperplate;
+	font-size: 120%;
+}
+
+.locad
+{
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 120%;
+}
+
+.eee
+{
+	width: 400px;
+	background: #321123;
+	padding: 30px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 12px;
+	font-family: Verdana;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	text-align: center;
+	font-size: 60px;
+}
+
+.iii
+{
+	width: 400px;
+	background: #9E5F83;
+	padding: 30px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 12px;
+	font-family: Verdana;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	text-align: center;
+	font-size: 60px;
+}
