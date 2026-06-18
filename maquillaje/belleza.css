@@ -1,0 +1,651 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.coffe
+{
+    background-color: rgb(216, 196, 174);
+}
+
+.opcion
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    z-index: 1000;
+}
+
+.nave
+{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    align-items: center;
+}
+
+.logo
+{
+    width: 3%;
+    height: 3%;
+}
+
+.nova
+{
+    display: flex;
+    gap: 30px;
+
+}
+
+.nova a:hover
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 8px #000000, 0 0 16px #000000;
+    border-radius: 10pt;
+    padding: 10pt;
+    transition: padding 1s;
+}
+
+.nova a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+.fe
+{
+    position: sticky;
+    top: 20%;
+    left: 0;
+    color: rgb(77, 47, 19);
+    border: 10px;
+    border-style: solid;
+    z-index: 1000;
+}
+
+/*Inicio*/
+
+#inicio
+{
+    color: white;
+    background-image: url(../img/cofe.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;   
+    align-items: center;
+    background-color: rgb(0, 0, 0,  0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.intro
+{
+    font-size: 50px;
+    animation: flotarArriba 1s ease-out forwards;
+    position: relative;    /* Permite que el z-index funcione */
+    z-index: 1;
+}
+
+.razones
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    animation: flotarArriba 1s ease-out forwards;
+    position: relative;    /* Permite que el z-index funcione */
+    z-index: 1;
+}
+
+@keyframes flotarArriba {
+    from {
+        /* Estado inicial: invisible y 30px más abajo */
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        /* Estado final: visible y en su posición original */
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.raza
+{
+    color: white;
+    font-size: 30pt;
+    padding: 25pt;
+}
+
+.raza1
+{
+    text-align: left;
+}
+
+.raza2
+{
+    text-align: right;
+}
+
+.raza3
+{
+    text-align: center;
+}
+
+/*Productos*/
+
+#productos
+{
+    background-color: rgb(223, 213, 197);
+}
+
+.pro
+{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 60%;
+}
+
+.ame
+{
+    background-image: url(../img/exfoliante.png);
+    width: 400px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    background-color: rgb(0, 0, 0,  0.5);
+    background-blend-mode: darken;
+    border: none;
+    transition: text-shadow 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-size: 400%;
+    font-weight: bolder;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.ame:hover
+{
+    background-color: rgb(0, 0, 0,  0.7);
+    background-blend-mode: darken;
+    text-shadow: 0 0 5px #ffffff, 0 0 7px #ffffff, 0 0 150px #ffffff, 0 0 30px #ffffff;
+}
+
+.ama
+{
+    background-image: url(../img/crema.jpeg);
+    width: 400px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    background-color: rgb(0, 0, 0,  0.5);
+    background-blend-mode: darken;
+    border: none;
+    transition: text-shadow 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-size: 400%;
+    font-weight: bolder;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.ama:hover
+{
+    background-color: rgb(0, 0, 0,  0.7);
+    background-blend-mode: darken;
+    text-shadow: 0 0 5px #ffffff, 0 0 7px #ffffff, 0 0 150px #ffffff, 0 0 30px #ffffff;
+}
+
+.ame p, .ricano p 
+{
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.ame p.activado, .ricano p.activado 
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.ricano
+{
+    background-image: url(../img/jabon.png);
+    width: 400px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,  0.5);
+    background-blend-mode: darken;
+    border: none;
+    transition: text-shadow 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-size: 400%;
+    font-weight: bolder;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.ricano:hover
+{
+    background-color: rgb(0, 0, 0,  0.7);
+    background-blend-mode: darken;
+    text-shadow: 0 0 5px #ffffff, 0 0 7px #ffffff, 0 0 150px #ffffff, 0 0 30px #ffffff;
+}
+
+.americano
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    position: relative;    /* Permite que el z-index funcione */
+    z-index: 1;
+}
+
+/*Impacto*/
+
+#impacto
+{
+    text-align: center;
+    margin: 30pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+.pacto
+{
+    font-size: 30px;
+}
+
+.cacion h2 
+{
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 0;
+    color: #000000;
+    transition: color 0.2s;
+    font-size: 30px;
+    transition: text-shadow 0.3s ease;
+}
+
+.cacion:hover h2 
+{
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
+}
+
+.expli
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.cacion
+{
+    flex: 1;
+}
+
+.cancion
+{
+    margin-bottom: 35px;
+}
+
+.separa 
+{
+    border-bottom: 1px solid rgb(77, 47, 19);
+    padding: 24px 0;
+    margin-top: 20px;
+}
+
+.parte 
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.parte h3 
+{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    color: #000000;
+    transition: color 0.2s;
+    font-size: 50px;
+    transition: text-shadow 0.3s ease;
+}
+
+.parte:hover h3 
+{
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000, 0 0 40px #000000;
+}
+
+.contenido 
+{
+    margin-top: 14px;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+}
+
+.contenidos
+{
+    margin-top: 14px;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    display: flex;
+    gap: 100px;
+}
+
+/* Enlaces */
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.metric-card {
+    padding: 10px 0;
+}
+
+.metric-value {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.metric-label {
+    font-size: 10pt;
+    color: #515151;
+    font-weight: bolder;
+}
+
+
+[data-animar="scroll"] 
+{
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+
+[data-animar="scroll"].activado 
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*Nosotros*/
+
+#nosotros
+{
+    background-color: rgb(59, 48, 15);
+}
+
+.origen
+{
+    color: white;
+    text-align: center;
+    margin-left: 10pc;
+    margin-right: 10pc;
+    font-size: 50px;
+}
+
+.ori
+{
+    flex: 1;
+}
+
+.ollin
+{
+    margin-bottom: 35px;
+}
+
+.noso
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.mis-vis
+{
+    flex: 1;
+    text-align: center  ;
+}
+
+.ion
+{
+    margin-bottom: 35px;
+}
+
+.ion h2 
+{
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+    transition: color 0.2s;
+    font-size: 50px;
+    transition: text-shadow 0.3s ease;
+}
+
+.ion:hover h2 
+{
+    color: #000;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+}
+
+.separas
+{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 24px 0;
+}
+
+.partes 
+{
+    cursor: pointer;
+    font-size: 50px;
+
+}
+
+.partes h3 
+{
+    font-size: 13pt;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+    transition: color 0.2s;
+    font-size: 50px;
+    transition: text-shadow 0.3s ease;
+}
+
+.partes:hover h3 
+{
+    color: #000;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffffff;
+}
+
+
+.cuento 
+{
+    margin-top: 14px;
+    font-size: 15pt;
+    color: white;
+    line-height: 1.6;
+}
+
+.facto
+{
+    font-size: 45px;
+    color: white;
+}
+
+/*Contactos*/
+
+#contactos
+{
+    background-color: #32462d;
+}
+
+.sociales 
+{
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.sociales h2 
+{
+    color: #babdc0;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.sociales p 
+{
+    color: #babdc0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.social
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.redes {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #88ab91;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.redes:hover 
+{
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.redes svg {
+    width: 30pt;
+    height: 30pt;
+    transition: transform 0.3s ease;
+}
+
+/*Notificación*/
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  background: #ffffff;
+  color: #000000;
+  font-weight: bolder;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+  border-left: 5px solid #09661f;
+  animation: toast-in 0.3s ease-out forwards;
+}
+
+/* Icono de éxito (check) */
+.toast-icon {
+  width: 20px;
+  height: 20px;
+  fill: #09661f;
+}
+
+/* Animación de entrada */
+@keyframes toast-in {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animación de salida */
+@keyframes toast-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+}
